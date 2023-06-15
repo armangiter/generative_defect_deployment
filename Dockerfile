@@ -25,5 +25,5 @@ COPY rutilea-generative-defects-frontend .
 # FROM nginx:stable-alpine as production-stage
 # COPY --from=admin-build-stage /usr/local/src/app/admin /usr/share/nginx/html/admin
 # COPY conf.d /etc/nginx/conf.d
-EXPOSE 82
+# EXPOSE 82
 # CMD ["nginx", "-g", "daemon off;"]
