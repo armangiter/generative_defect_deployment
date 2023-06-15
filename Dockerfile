@@ -19,7 +19,7 @@ RUN npm config set fetch-retry-maxtimeout 120000
 #RUN npm  cache clear --force 
 
 RUN npm install --force
-COPY data/rutilea_oms_admin_frontend .
+COPY rutilea-generative-defects-frontend .
 RUN npm run dev
 
 # production stage
