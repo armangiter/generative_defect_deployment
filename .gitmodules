@@ -1,0 +1,4 @@
+[submodule "rutilea-generative-defects-frontend"]
+	path = rutilea-generative-defects-frontend
+	url = http://gitlab.virasad.ir/generative-defects/rutilea-generative-defects-frontend.git
+	branch = develop
