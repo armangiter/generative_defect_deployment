@@ -3,6 +3,7 @@ version: "3.8"
 services:
   nginx:
     build: .
+    command: "npm run dev"
     ports:
       - "82:82"
     volumes:

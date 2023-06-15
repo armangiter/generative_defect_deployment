@@ -20,7 +20,6 @@ RUN npm config set fetch-retry-maxtimeout 120000
 
 RUN npm install --force
 COPY rutilea-generative-defects-frontend .
-RUN npm run dev
 
 # production stage
 # FROM nginx:stable-alpine as production-stage
