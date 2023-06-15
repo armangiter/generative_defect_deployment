@@ -10,7 +10,7 @@ services:
       - static_volume:/home/app/microservice/static
     restart: always
     networks:
-      - generative-network
+      - host
 
 networks:
   generative-network:
